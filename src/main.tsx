@@ -1,7 +1,10 @@
+// Import Tailwind CSS
+import "./css/main.pcss";
+
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Nav from "./Nav";
+import Tabs from "./components/AnimatedTabs";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <Nav />
+  <Tabs />
 );
